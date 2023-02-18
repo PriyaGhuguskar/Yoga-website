@@ -15,7 +15,7 @@ const HeadCompo = () => {
                     <h1>Explore life with Yoga</h1>
                     <h2>Learn Yoga with Us </h2>
                     <a
-                        href=''
+                        href='/'
                         className="btn btn-primary btn-sm"
                         style={{ margin: "0 5px" }}
                     >
