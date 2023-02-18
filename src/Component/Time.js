@@ -12,14 +12,10 @@ const Time = () => {
     <div className='time-div'>
     <DropdownButton id="dropdown-basic-button" title="Select Time Slot">
     <Dropdown.Item className='time-div' href="">05:00 to 07:00 AM</Dropdown.Item>
-
       <Dropdown.Item className='time-div' href="">07:00 to 09:00 AM</Dropdown.Item>
       <Dropdown.Item className='time-div' href="">09:00 to 11:00 AM</Dropdown.Item>
-
       <Dropdown.Item className='time-div' href="">12:00 to 02:00 PM</Dropdown.Item>
       <Dropdown.Item className='time-div' href="">02:00 to 04:00 PM</Dropdown.Item>
-    
-      
     </DropdownButton>
         </div>
    

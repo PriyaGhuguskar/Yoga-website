@@ -1,8 +1,7 @@
 import React from 'react'
 import lilyimg from '../assets/lily.png'
 import doeimg from '../assets/doe.png'
-import logo from '../assets/logo.png'
-import { Form, radio } from 'react-bootstrap'
+import { Form} from 'react-bootstrap'
 
 
 const Filter = () => {
@@ -152,9 +151,7 @@ const Filter = () => {
             </div>
 
         </div>
-       { photos.filter(function(element){
-         
-    })}
+      
 </>
     )
 }

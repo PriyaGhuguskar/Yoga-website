@@ -1,7 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-
-
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Navcompo from './Component/Navcompo';
 import HeadCompo from './Component/HeadCompo';

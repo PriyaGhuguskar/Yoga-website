@@ -1,11 +1,10 @@
 import React from 'react'
-import { Container, Row, Col, Card, Button } from 'react-bootstrap'
+import { Container, Row, Col, Card} from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 
 import lilyimg from '../assets/lily.png'
 import doeimg from '../assets/doe.png'
 import logo from '../assets/logo.png'
-import Filter from './Filter';
 
 
 const Slot = () => {
@@ -121,37 +120,3 @@ const Slot = () => {
 }
 
 export default Slot
-
-{/* <Container  className='session-con'>
-<h1>Book Your 1-1 Session</h1>
-    <Row>
-    <Col>
-            <Card style={{ width: '16rem' }}>
-                <Card.Img variant="top" src={lilyimg} />
-                <Card.Body>
-                    <Card.Title>Lily</Card.Title>
-                    <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                    </Card.Text>
-                    <Button variant="primary">Know more </Button>
-                </Card.Body>
-            </Card>
-        </Col>
-        <Col>
-            <Card style={{ width: '16rem' }}>
-                <Card.Img variant="top" src={doeimg} style={{ height: '170px' }}/>
-                <Card.Body>
-                    <Card.Title>Jonny Doe</Card.Title>
-                    <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                    </Card.Text>
-                    <Button variant="primary">Know more </Button>
-                </Card.Body>
-            </Card>
-        </Col>
-        
-     
-    </Row>
-</Container>  */}
