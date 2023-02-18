@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+
+
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Navcompo from './Component/Navcompo';
+import HeadCompo from './Component/HeadCompo';
+import RegistrationForm from './Component/Signup/index';
+import Time from './Component/Time';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <BrowserRouter>
+       <Navcompo/>
+      <Switch>
+        <Route exact path="/">
+        <HeadCompo/>
+        </Route>
+        <Route path="/signup" >
+          <RegistrationForm />
+        </Route>
+        <Route path="/schedule" >
+          <Time />
+        </Route>
+        
+      </Switch>
+
+    </BrowserRouter>
+      
+     
+      
     </div>
   );
 }

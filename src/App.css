@@ -1,32 +1,134 @@
+@import url("http://cdn.syncfusion.com/ej2/material.css");
+
+
 .App {
   text-align: center;
+  /* background-color: black;
+  color: whitesmoke; */
+}
+.text-nav{
+
+  color: white;
+  font-weight: 600;
+  font-size: 1.2em;
+  
+}
+ .slot-btn{
+  height: 33px;
+  width: 230px;
+  font-size: large;
+margin: 5px auto;
+cursor: pointer;
+ }
+.head-container{
+  color: white;
+  
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  margin-bottom: 20px;
+  background-image: url('https://t3.ftcdn.net/jpg/04/87/48/66/360_F_487486623_CatNgUbulZ6rOpENckeTzRfY7IzrqOKd.jpg');
+  background-size: cover;
+  justify-items: center;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.trainer-div{
+/* margin: 10px; */
+/* display: flex; */
+width:60vw;
+/* margin-left:50px; */
+height: 450px;
+margin: 2px auto;
+align-items: center;
+/* border: 1px solid peru; */
+
+}
+.session-div{
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  margin: 20px auto;
+  height: fit-content;
+  /* border: 2px solid peru; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
+
+.session-con{
+  width: 80vw;
+  margin: 20px auto;
+  
+}
+
+.head-text{
+ margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  /* justify-items: center; */
+ 
+
+}
+.mail-inp{
+  margin: 10px auto;
+  width: 40vw;
+  
+}
+.filter-div{
+  display: flex;
+  width: 70vw;
+  padding-left: 50px;
+  padding-right: 5px;
+  gap: 20px;
+  font-size:medium;
+  align-items: center;
+  margin: 5px auto;
+  background-color: rgb(243, 225, 202);
+  box-shadow: 5px;
+  border: 2px solid black;
+}
+.Calender-div{
+  width: 80vw;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cal-div{
+  width: 50vw;
+  margin: 20px 50px;
+}
+#dropdown-basic-button{
+  width: 40vw;
+}
+.time-div{
+  width: 40vw;
+}
+
+.time-cont{
+  width:90vw;
+}
+.trainer-filter-div{
+  margin: 30px;
+  /* border: 1px solid beige; */
+}
+.service-div{
+  margin: 30px;
+
+}
+
+
+
+.table-style .today {background: #2A3F54; color: #ffffff;}
+.table-style th:nth-of-type(7),td:nth-of-type(7) {color: blue;}
+.table-style th:nth-of-type(1),td:nth-of-type(1) {color: red;}
+.table-style tr:first-child th{background-color:#F6F6F6; text-align:center; font-size: 15px;}
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +137,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
